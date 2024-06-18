@@ -1,8 +1,5 @@
 <template>
-    <main>
-      Experience
-    </main>
-  </template>
-  
-  <script setup lang="ts">
-  </script>
+  <main>Experience</main>
+</template>
+
+<script setup lang="ts"></script>
