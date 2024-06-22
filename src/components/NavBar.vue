@@ -1,7 +1,6 @@
 <template>
-  <!-- outer div controls whether in dark mode-->
   <div
-    class="max-w-screen fixed left-0 top-0 flex h-20 w-screen items-center justify-between bg-inherit px-8 text-3xl text-inherit drop-shadow dark:bg-inherit dark:text-inherit sm:h-16 sm:px-10 md:px-12 lg:px-20"
+    class="z-50 max-w-screen fixed left-0 top-0 flex h-20 w-screen items-center justify-between bg-inherit px-8 text-3xl text-inherit drop-shadow dark:bg-inherit dark:text-inherit sm:h-16 sm:px-10 md:px-12 lg:px-20"
   >
     <!-- site logo -->
     <div
@@ -19,7 +18,7 @@
         />
       </svg>
     </div>
-    <!-- navb links and buttons -->
+    <!-- navbar links and buttons -->
     <div
       class="flex flex-row gap-6 bg-inherit text-inherit dark:bg-inherit dark:text-inherit sm:h-full sm:flex-row-reverse sm:gap-0"
       id="nav-button-container"
@@ -102,10 +101,10 @@
       <!-- navbar links -->
       <div
         :class="{ hidden: !navShown }"
-        class="fixed left-0 top-20 w-full bg-inherit px-6 sm:relative sm:top-0 sm:mx-6 sm:block sm:w-auto sm:px-0 md:mx-8 lg:mx-10"
+        class="fixed left-0 top-20 w-full border-b-2 border-b-neutral-900 bg-inherit px-6 text-inherit dark:border-b-neutral-200 dark:bg-inherit dark:text-inherit sm:relative sm:top-0 sm:mx-6 sm:block sm:w-auto sm:border-b-0 sm:px-0 md:mx-8 lg:mx-10"
       >
         <ul
-          class="flex flex-col text-base sm:h-full sm:flex-row sm:justify-center sm:gap-6 md:gap-8 lg:gap-10"
+          class="flex flex-col text-lg sm:h-full sm:flex-row sm:justify-center sm:gap-6 md:gap-8 lg:gap-10"
         >
           <li
             class="pb-4 sm:flex sm:h-full sm:place-items-center sm:border-t-transparent sm:pb-0"
@@ -114,7 +113,9 @@
                 isActive('/'),
             }"
           >
-            <RouterLink @click="toggleNavShown" to="/">Home</RouterLink>
+            <RouterLink class="flex w-full" @click="toggleNavShown" to="/"
+              >Home</RouterLink
+            >
           </li>
           <li
             class="pb-4 sm:flex sm:h-full sm:place-items-center sm:border-t-transparent sm:pb-0"
@@ -123,18 +124,24 @@
                 isActive('/experience'),
             }"
           >
-            <RouterLink @click="toggleNavShown" to="/experience"
+            <RouterLink
+              class="flex w-full"
+              @click="toggleNavShown"
+              to="/experience"
               >Experience</RouterLink
             >
           </li>
           <li
-            class="pb-4 sm:flex sm:h-full sm:place-items-center sm:border-t-transparent sm:pb-0"
+            class="pb-6 sm:flex sm:h-full sm:place-items-center sm:border-t-transparent sm:pb-0"
             :class="{
               'sm text-indigo-500 transition ease-linear sm:border-y-4 sm:border-b-indigo-500 sm:border-t-transparent':
                 isActive('/projects'),
             }"
           >
-            <RouterLink @click="toggleNavShown" to="/projects"
+            <RouterLink
+              class="flex w-full"
+              @click="toggleNavShown"
+              to="/projects"
               >Projects</RouterLink
             >
           </li>
@@ -145,11 +152,19 @@
 </template>
 
 <script setup lang="ts">
-import { isDark, toggleIsDark } from "../main";
+import { isDark } from "../main";
 import { computed, ref } from "vue";
 import { useRoute } from "vue-router";
 
 import type { Ref } from "vue";
+
+// toggle dark mode, storing updated value
+const toggleIsDark = () => {
+  isDark.value = !isDark.value;
+
+  // Save the current value to local storage
+  localStorage.setItem("isDark", JSON.stringify(isDark.value));
+};
 
 //
 // track if site navbar is shown (mobile only)
