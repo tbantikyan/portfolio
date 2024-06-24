@@ -11,7 +11,7 @@
           >Tigran Bantikyan</span
         >
       </h1>
-      <div class="font-mono mt-1 text-base font-bold sm:text-lg md:text-xl lg:text-2xl xl:text-3xl border-r-5 bg-inherit text-inherit dark:bg-inherit dark:text-inherit">
+      <div class="font-mono md:mt-1 text-base font-bold sm:text-lg md:text-xl lg:text-2xl xl:text-3xl border-r-5 bg-inherit text-inherit dark:bg-inherit dark:text-inherit">
         <h2 class="relative before:absolute w-fit before:inset-0 before:animate-[typewriter_0.8s_steps(18)_forwards] bg-inherit before:bg-inherit dark:bg-inherit dark:before:bg-inherit">
           Software Engineer.
         </h2>
@@ -23,10 +23,10 @@
       <!-- about me text -->
       <div class="basis-3/6 text-base lg:text-xl" id="about-me">
         <p class="md:leading-8">
-          I am a Software Enginner, student, and life-long learner. My passion for
-          for Computer Science begin at the age of 9, when I  set out
-          to uncover how video games were made in hopes of forging one of my own. Today, I prize my
-          curiosity and high standards for work as characteristics that drive me to become a better
+          I am a Software Engineer, student, and lifelong learner. My passion for
+          Computer Science began at the age of 9 when I set out
+          to uncover how video games are made in hopes of forging one of my own. Today, I prize my
+          curiosity and high standards for work as qualities that drive me to become a better
           engineer.
         </p>
         <p class="md:leading-8 mt-3">
@@ -39,24 +39,25 @@
         <!-- Skills -->
         <p class="thin text-base">My Skills:</p>
         <div class="rounded-lg bg-opacity-90 p-2" id="skills">
-          <div class="flex flex-row flex-wrap gap-2">
-            <Skills :icon="goIcon" :skillName="'Go (Golang)'" />
-            <Skills :icon="awsIcon" :skillName="'AWS'" />
-            <Skills :icon="dockerIcon" :skillName="'Docker'" />
-            <Skills :icon="kubernetesIcon" :skillName="'Kubernetes (K8s)'" />
-            <Skills :icon="gitIcon" :skillName="'Git/GitHub'" />
-            <Skills :icon="cIcon" :skillName="'C/C++'" />
-            <Skills :icon="pythonIcon" :skillName="'Python'" />
-            <Skills :icon="nodesjsIcon" :skillName="'Node.js'" />
-            <Skills :icon="reactIcon" :skillName="'React'" />
-            <Skills :icon="mongodbIcon" :skillName="'MongoDB'" />
-            <Skills :icon="javascriptIcon" :skillName="'Javascript'" />
-            <Skills :icon="tailwindIcon" :skillName="'Tailwind CSS'" />
-            <Skills :icon="postgresIcon" :skillName="'Postgres / MySQL'" />
+          <div class="flex flex-row flex-wrap gap-1.5">
+            <Skill :skillData="{icon: goIcon, name: 'Go (Golang)'}"/>
+            <Skill :skillData="{icon: awsIcon, name:'AWS'}" />
+            <Skill :skillData="{icon: dockerIcon, name: 'Docker'}" />
+            <Skill :skillData="{icon: kubernetesIcon, name:'Kubernetes (K8s)'}" />
+            <Skill :skillData="{icon: gitIcon, name:'Git/GitHub'}" />
+            <Skill :skillData="{icon: cIcon, name:'C/C++'}" />
+            <Skill :skillData="{icon: pythonIcon, name:'Python'}" />
+            <Skill :skillData="{icon: nodesjsIcon, name:'Node.js'}" />
+            <Skill :skillData="{icon: reactIcon, name:'React'}" />
+            <Skill :skillData="{icon: vueIcon, name: `Vue` }" />
+            <Skill :skillData="{icon: mongodbIcon, name:'MongoDB'}" />
+            <Skill :skillData="{icon: javascriptIcon, name:'Javascript'}" />
+            <Skill :skillData="{icon: tailwindIcon, name:'Tailwind CSS'}" />
+            <Skill :skillData="{icon: postgresIcon, name:'Postgres / MySQL'}" />
           </div>
         </div>
         <!-- Contact & social media links -->
-        <div class="mt-8 md:mt-4 lg:mt-8" id="social-links">
+        <div class="mt-8 md:mt-4" id="social-links">
           <p class="thin text-base">Let's connect:</p>
           <div class="ml-4 mt-2 flex flex-col gap-1.5 text-sm font-light">
             <a
@@ -89,7 +90,8 @@
 </template>
 
 <script setup lang="ts">
-import Skills from "../components/Skills.vue";
+import Skill from "../components/Skill.vue";
+
 import awsIcon from "../assets/icons/aws.svg";
 import cIcon from "../assets/icons/c.svg";
 import dockerIcon from "../assets/icons/docker.svg";
@@ -106,5 +108,5 @@ import postgresIcon from "../assets/icons/postgres.svg";
 import pythonIcon from "../assets/icons/python.svg";
 import reactIcon from "../assets/icons/react.svg";
 import tailwindIcon from "../assets/icons/tailwind.svg";
-import portrait from "../assets/portrait.png";
+import vueIcon from "../assets/icons/vue.svg"
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="z-50 max-w-screen fixed left-0 top-0 flex h-20 w-screen items-center justify-between bg-inherit px-8 text-3xl text-inherit drop-shadow dark:bg-inherit dark:text-inherit sm:h-16 sm:px-10 md:px-12 lg:px-20"
+    class="z-50 max-w-screen fixed left-0 top-0 flex h-20 w-screen items-center justify-between bg-inherit px-8 text-3xl text-inherit drop-shadow-lg dark:bg-inherit dark:text-inherit sm:h-16 sm:px-10 md:px-12 lg:px-20"
   >
     <!-- site logo -->
     <div
@@ -153,10 +153,8 @@
 
 <script setup lang="ts">
 import { isDark } from "../main";
-import { computed, ref } from "vue";
+import { computed, ref, type Ref } from "vue";
 import { useRoute } from "vue-router";
-
-import type { Ref } from "vue";
 
 // toggle dark mode, storing updated value
 const toggleIsDark = () => {
