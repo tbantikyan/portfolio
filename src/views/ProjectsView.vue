@@ -25,8 +25,8 @@
       />
       <Project
         :project-data="{
-          title: `Pineapple: Linearizable Storage`,
-          description: `Highly performant consensus algorithm that improves on Multi-Paxos by integrating ABD. Achieves significant latency & throughput improvement (from 30% to 50%) over competitors.`,
+          title: `Pineapple: Consensus Algorithm`,
+          description: `Developed a highly performant consensus algorithm that improves on Multi-Paxos by integrating ABD. Achieves significant latency & throughput improvement (from 30% to 50%) over competitors.`,
           link: 'https://github.com/tigranb2/pineapple/',
           imgSrc: pineappleDisplay,
           skills: [
