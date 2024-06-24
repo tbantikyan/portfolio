@@ -61,7 +61,7 @@
             date: `Jan. 2021 - May 2022`,
             description: [
               `Programmed 4 novel consensus algorithms for experimentation, enabling a boost in performance of up to 50%.`,
-              `Designed innovative an integration between Cassandra and Ethereum to create a system that addresses problems of IoT networks.`,
+              `Designed an innovative integration between Cassandra and Ethereum to create a system that addresses problems of IoT networks.`,
               `Utilized cloud infrastructure to simulate realistic conditions for test data, helping 3 papers achieve publication.`,
             ],
             skills: [

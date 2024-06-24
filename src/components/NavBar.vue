@@ -101,7 +101,7 @@
       <!-- navbar links -->
       <div
         :class="{ hidden: !navShown }"
-        class="fixed left-0 top-20 w-full border-b-2 border-b-neutral-900 bg-inherit px-6 text-inherit dark:border-b-neutral-200 dark:bg-inherit dark:text-inherit sm:relative sm:top-0 sm:mx-6 sm:block sm:w-auto sm:border-b-0 sm:px-0 md:mx-8 lg:mx-10"
+        class="fixed left-0 top-20 w-full border-b border-b-neutral-900 bg-inherit px-6 text-inherit dark:border-b-neutral-200 dark:bg-inherit dark:text-inherit sm:relative sm:top-0 sm:mx-6 sm:block sm:w-auto sm:border-b-0 sm:px-0 md:mx-8 lg:mx-10"
       >
         <ul
           class="flex flex-col text-lg sm:h-full sm:flex-row sm:justify-center sm:gap-6 md:gap-8 lg:gap-10"
