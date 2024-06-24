@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex h-fit flex-row rounded-md bg-white drop-shadow-xl transition ease-linear hover:cursor-pointer dark:bg-neutral-800 md:w-full"
+    class="flex h-fit flex-row rounded-md bg-white drop-shadow-xl transition ease-linear dark:bg-neutral-800 md:w-full"
   >
     <!-- Experience details  -->
     <div class="mx-4 sm:mx-6 flex flex-col">
