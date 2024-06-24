@@ -25,6 +25,19 @@
       />
       <Project
         :project-data="{
+          title: `Pineapple: Linearizable Storage`,
+          description: `Highly performant consensus algorithm that improves on Multi-Paxos by integrating ABD. Achieves significant latency & throughput improvement (from 30% to 50%) over competitors.`,
+          link: 'https://github.com/tigranb2/pineapple/',
+          imgSrc: pineappleDisplay,
+          skills: [
+            { icon: goIcon, name: `Go (Golang)` },
+            { icon: cloudlabIcon, name: `Cloudlab`},
+            { icon: gitIcon, name: `Git/GitHub` },
+          ],
+        }"
+      />
+      <Project
+        :project-data="{
           title: `SoHamov: Dish Classifier`,
           description: `Responsive web app for classifying images of popular Armenian cuisine and educating users. I built a custom dataset and trained the AI model, achieving 97% accuracy.`,
           link: 'https://sohamov.pages.dev/',
@@ -72,12 +85,15 @@
 <script setup lang="ts">
 import Project from "../components/Project.vue";
 
+import cloudlabIcon from "../assets/icons/cloudlab.svg";
 import csharpIcon from "../assets/icons/csharp.svg";
 import firebaseIcon from "../assets/icons/firebase.svg";
 import flightSimDisplay from "../assets/flight-sim-display.jpg";
 import gitIcon from "../assets/icons/git.svg";
+import goIcon from "../assets/icons/go.svg"
 import mongodbIcon from "../assets/icons/mongodb.svg";
 import nodesjsIcon from "../assets/icons/nodejs.svg";
+import pineappleDisplay from "../assets/pineapple-display.png"
 import portfolioDisplay from "../assets/portfolio-display.jpg";
 import reactIcon from "../assets/icons/react.svg";
 import sohamovDisplay from "../assets/sohamov-display.jpg";

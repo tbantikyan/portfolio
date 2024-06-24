@@ -39,7 +39,7 @@
             companyLogo: clarkUniversityIcon,
             date: `June 2023 - Sep. 2023`,
             description: [
-              `Developed a consensus-driven linearizable storage adapting Multi-Paxos & ABD to achieve a 30% increase in throughput over existing state-of-the-art systems.`,
+              `Developed a consensus-driven linearizable storage to achieve a 30% increase in throughput over existing state-of-the-art systems.`,
               `Implemented features favoring industry use while reducing latency by 20-50% over an existing system more suited to an academic context.`,
               `Produced compelling visualizations via NumPy & Matplotlib for a paper submitted for publication.`
             ],
