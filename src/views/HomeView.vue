@@ -37,7 +37,7 @@
       </div>
       <div class="basis-2/5 mt-8 md:mt-0 pb-10 md:flex md:flex-col md:pb-0">
         <!-- Skills -->
-        <p class="thin text-base">My Skills:</p>
+        <p class="thin text-base">My skills:</p>
         <div class="rounded-lg bg-opacity-90 p-2" id="skills">
           <div class="flex flex-row flex-wrap gap-1.5">
             <Skill :skillData="{icon: goIcon, name: 'Go (Golang)'}"/>
