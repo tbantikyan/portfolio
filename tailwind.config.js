@@ -8,11 +8,11 @@ export default {
       keyframes: {
         typewriter: {
           to: {
-            left: "100%"
+            left: "100%",
           },
         },
-      }
-    }
+      },
+    },
   },
   plugins: [],
 };

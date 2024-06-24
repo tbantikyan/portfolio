@@ -1,9 +1,13 @@
 <template>
-  <main class="md:flex md:flex-col md:gap-16 md:px-4 lg:px-16 xl:px-44 bg-inherit text-inherit dark:bg-inherit dark:text-inherit">
+  <main
+    class="bg-inherit text-inherit dark:bg-inherit dark:text-inherit md:flex md:flex-col md:gap-16 md:px-4 lg:px-16 xl:px-44"
+  >
     <!-- Header -->
-    <div class="mt-4 md:mt-16 flex flex-col bg-inherit text-inherit dark:bg-inherit dark:text-inherit">
+    <div
+      class="mt-4 flex flex-col bg-inherit text-inherit dark:bg-inherit dark:text-inherit md:mt-16"
+    >
       <h1
-        class="mt-1 place-content-center text-3xl sm:text-4xl md:text-5xl font-bold lg:text-6xl xl:text-7xl"
+        class="mt-1 place-content-center text-3xl font-bold sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl"
       >
         I'm
         <span
@@ -11,49 +15,61 @@
           >Tigran Bantikyan</span
         >
       </h1>
-      <div class="font-mono md:mt-1 text-base font-bold sm:text-lg md:text-xl lg:text-2xl xl:text-3xl border-r-5 bg-inherit text-inherit dark:bg-inherit dark:text-inherit">
-        <h2 class="relative before:absolute w-fit before:inset-0 before:animate-[typewriter_0.8s_steps(18)_forwards] bg-inherit before:bg-inherit dark:bg-inherit dark:before:bg-inherit">
+      <div
+        class="border-r-5 bg-inherit font-mono text-base font-bold text-inherit dark:bg-inherit dark:text-inherit sm:text-lg md:mt-1 md:text-xl lg:text-2xl xl:text-3xl"
+      >
+        <h2
+          class="relative w-fit bg-inherit before:absolute before:inset-0 before:animate-[typewriter_0.8s_steps(18)_forwards] before:bg-inherit dark:bg-inherit dark:before:bg-inherit"
+        >
           Software Engineer.
         </h2>
-        <h2 class="relative w-fit before:absolute before:inset-0 before:animate-[typewriter_1.3s_0.8s_steps(31)_forwards] bg-inherit before:bg-inherit dark:bg-inherit dark:before:bg-inherit">
-          CS at Northwestern University.</h2>
+        <h2
+          class="relative w-fit bg-inherit before:absolute before:inset-0 before:animate-[typewriter_1.3s_0.8s_steps(31)_forwards] before:bg-inherit dark:bg-inherit dark:before:bg-inherit"
+        >
+          CS at Northwestern University.
+        </h2>
       </div>
     </div>
-    <div class="mt-8 md:mt-0 flex justify-between flex-col md:flex-row">
+    <div class="mt-8 flex flex-col justify-between md:mt-0 md:flex-row">
       <!-- about me text -->
       <div class="basis-3/6 text-base lg:text-xl" id="about-me">
         <p class="md:leading-8">
-          I am a Software Engineer, student, and lifelong learner. My passion for
-          Computer Science began at the age of 9 when I set out
-          to uncover how video games are made in hopes of forging one of my own. Today, I prize my
-          curiosity and high standards for work as qualities that drive me to become a better
-          engineer.
+          I am a Software Engineer, student, and lifelong learner. My passion
+          for Computer Science began at the age of 9 when I set out to uncover
+          how video games are made in hopes of forging one of my own. Today, I
+          prize my curiosity and high standards for work as qualities that drive
+          me to become a better engineer.
         </p>
-        <p class="md:leading-8 mt-3">
-          I have had the privilege of optimizing algorithms, designing backend systems, and 
-          developing scalable apps in past experiences while cultivating my collaboration and
-          problem-solving skills. I am eager to further my SWE career.
+        <p class="mt-3 md:leading-8">
+          I have had the privilege of optimizing algorithms, designing backend
+          systems, and developing scalable apps in past experiences while
+          cultivating my collaboration and problem-solving skills. I am eager to
+          further my SWE career.
         </p>
       </div>
-      <div class="basis-2/5 mt-8 md:mt-0 pb-10 md:flex md:flex-col md:pb-0">
+      <div class="mt-8 basis-2/5 pb-10 md:mt-0 md:flex md:flex-col md:pb-0">
         <!-- Skills -->
         <p class="thin text-base">My skills:</p>
         <div class="rounded-lg bg-opacity-90 p-2" id="skills">
           <div class="flex flex-row flex-wrap gap-1.5">
-            <Skill :skillData="{icon: goIcon, name: 'Go (Golang)'}"/>
-            <Skill :skillData="{icon: awsIcon, name:'AWS'}" />
-            <Skill :skillData="{icon: dockerIcon, name: 'Docker'}" />
-            <Skill :skillData="{icon: kubernetesIcon, name:'Kubernetes (K8s)'}" />
-            <Skill :skillData="{icon: gitIcon, name:'Git/GitHub'}" />
-            <Skill :skillData="{icon: cIcon, name:'C/C++'}" />
-            <Skill :skillData="{icon: pythonIcon, name:'Python'}" />
-            <Skill :skillData="{icon: nodesjsIcon, name:'Node.js'}" />
-            <Skill :skillData="{icon: reactIcon, name:'React'}" />
-            <Skill :skillData="{icon: vueIcon, name: `Vue` }" />
-            <Skill :skillData="{icon: mongodbIcon, name:'MongoDB'}" />
-            <Skill :skillData="{icon: javascriptIcon, name:'Javascript'}" />
-            <Skill :skillData="{icon: tailwindIcon, name:'Tailwind CSS'}" />
-            <Skill :skillData="{icon: postgresIcon, name:'Postgres / MySQL'}" />
+            <Skill :skillData="{ icon: goIcon, name: 'Go (Golang)' }" />
+            <Skill :skillData="{ icon: awsIcon, name: 'AWS' }" />
+            <Skill :skillData="{ icon: dockerIcon, name: 'Docker' }" />
+            <Skill
+              :skillData="{ icon: kubernetesIcon, name: 'Kubernetes (K8s)' }"
+            />
+            <Skill :skillData="{ icon: gitIcon, name: 'Git/GitHub' }" />
+            <Skill :skillData="{ icon: cIcon, name: 'C/C++' }" />
+            <Skill :skillData="{ icon: pythonIcon, name: 'Python' }" />
+            <Skill :skillData="{ icon: nodesjsIcon, name: 'Node.js' }" />
+            <Skill :skillData="{ icon: reactIcon, name: 'React' }" />
+            <Skill :skillData="{ icon: vueIcon, name: `Vue` }" />
+            <Skill :skillData="{ icon: mongodbIcon, name: 'MongoDB' }" />
+            <Skill :skillData="{ icon: javascriptIcon, name: 'Javascript' }" />
+            <Skill :skillData="{ icon: tailwindIcon, name: 'Tailwind CSS' }" />
+            <Skill
+              :skillData="{ icon: postgresIcon, name: 'Postgres / MySQL' }"
+            />
           </div>
         </div>
         <!-- Contact & social media links -->
@@ -108,5 +124,5 @@ import postgresIcon from "../assets/icons/postgres.svg";
 import pythonIcon from "../assets/icons/python.svg";
 import reactIcon from "../assets/icons/react.svg";
 import tailwindIcon from "../assets/icons/tailwind.svg";
-import vueIcon from "../assets/icons/vue.svg"
+import vueIcon from "../assets/icons/vue.svg";
 </script>

@@ -1,14 +1,18 @@
 <template>
-  <main class="mt-4 lg:mt-8 bg-inherit text-inherit dark:bg-inherit dark:text-inherit">
+  <main
+    class="mt-4 bg-inherit text-inherit dark:bg-inherit dark:text-inherit lg:mt-8"
+  >
     <div class="md:px-4 lg:px-16 xl:px-44">
-      <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold">My Projects</h1>
-      <p class="mt-2 text-sm md:text-base w-10/12 sm:w-8/12 lg:w-6/12">
+      <h1 class="text-2xl font-bold md:text-3xl lg:text-4xl">My Projects</h1>
+      <p class="mt-2 w-10/12 text-sm sm:w-8/12 md:text-base lg:w-6/12">
         Hobby projects I've pursued to fulfill personal needs and learn new
         skills. Many of them are deployed and feature a link to the code on
         GitHub.
       </p>
     </div>
-    <div class="mt-10 flex pb-10 md:pb-0 flex-col place-items-center gap-4 lg:gap-5">
+    <div
+      class="mt-10 flex flex-col place-items-center gap-4 pb-10 md:pb-0 lg:gap-5"
+    >
       <Project
         :project-data="{
           title: `Tachy: Productivity Tracker`,
@@ -31,7 +35,7 @@
           imgSrc: pineappleDisplay,
           skills: [
             { icon: goIcon, name: `Go (Golang)` },
-            { icon: cloudlabIcon, name: `Cloudlab`},
+            { icon: cloudlabIcon, name: `Cloudlab` },
             { icon: gitIcon, name: `Git/GitHub` },
           ],
         }"
@@ -90,10 +94,10 @@ import csharpIcon from "../assets/icons/csharp.svg";
 import firebaseIcon from "../assets/icons/firebase.svg";
 import flightSimDisplay from "../assets/flight-sim-display.jpg";
 import gitIcon from "../assets/icons/git.svg";
-import goIcon from "../assets/icons/go.svg"
+import goIcon from "../assets/icons/go.svg";
 import mongodbIcon from "../assets/icons/mongodb.svg";
 import nodesjsIcon from "../assets/icons/nodejs.svg";
-import pineappleDisplay from "../assets/pineapple-display.png"
+import pineappleDisplay from "../assets/pineapple-display.png";
 import portfolioDisplay from "../assets/portfolio-display.jpg";
 import reactIcon from "../assets/icons/react.svg";
 import sohamovDisplay from "../assets/sohamov-display.jpg";

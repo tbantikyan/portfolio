@@ -41,7 +41,7 @@
             description: [
               `Developed a consensus-driven linearizable storage to achieve a 30% increase in throughput over existing state-of-the-art systems.`,
               `Implemented features favoring industry use while reducing latency by 20-50% over an existing system more suited to an academic context.`,
-              `Produced compelling visualizations via NumPy & Matplotlib for a paper submitted for publication.`
+              `Produced compelling visualizations via NumPy & Matplotlib for a paper submitted for publication.`,
             ],
             skills: [
               { icon: goIcon, name: `Go (Golang)` },
@@ -68,9 +68,9 @@
               { icon: goIcon, name: `Go (Golang)` },
               { icon: gcpIcon, name: `Google Cloud Platform` },
               { icon: pythonIcon, name: `Python` },
-              { icon: cassandraIcon, name: `Cassandra`},
-              { icon: ethereumIcon, name: `Ethereum Blockchain`},
-              { icon: linuxIcon, name: `Linux` }
+              { icon: cassandraIcon, name: `Cassandra` },
+              { icon: ethereumIcon, name: `Ethereum Blockchain` },
+              { icon: linuxIcon, name: `Linux` },
             ],
           }"
         />
@@ -96,7 +96,7 @@ import goIcon from "../assets/icons/go.svg";
 import htmxIcon from "../assets/icons/htmx.svg";
 import javascriptIcon from "../assets/icons/javascript.svg";
 import kubernetesIcon from "../assets/icons/kubernetes.svg";
-import linuxIcon from "../assets/icons/linux.svg"
+import linuxIcon from "../assets/icons/linux.svg";
 import nodesjsIcon from "../assets/icons/nodejs.svg";
 import pythonIcon from "../assets/icons/python.svg";
 </script>

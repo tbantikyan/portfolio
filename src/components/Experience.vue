@@ -3,15 +3,15 @@
     class="flex h-fit flex-row rounded-md bg-white drop-shadow-xl transition ease-linear dark:bg-neutral-800 md:w-full"
   >
     <!-- Experience details  -->
-    <div class="mx-4 sm:mx-6 flex flex-col">
+    <div class="mx-4 flex flex-col sm:mx-6">
       <h2
         class="mt-4 text-lg font-bold transition ease-linear group-hover:text-indigo-500 sm:mt-3 md:text-xl"
       >
         {{ experienceData.title }}
       </h2>
-      <div class="mt-2 sm:mt-1 flex flex-row items-center gap-1.5">
+      <div class="mt-2 flex flex-row items-center gap-1.5 sm:mt-1">
         <inline-svg class="h-5 w-5" :src="experienceData.companyLogo" />
-        <p class="text-sm  md:text-base">
+        <p class="text-sm md:text-base">
           {{ experienceData.company }}
         </p>
       </div>
