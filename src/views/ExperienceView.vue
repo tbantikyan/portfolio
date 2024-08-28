@@ -17,8 +17,10 @@
             companyLogo: camberCloudIcon,
             date: `June 2024 - Present`,
             description: [
-              `Developing a user-friendly interface for reserving high-end cloud GPUs & deploying to Kubernetes, addressing a
-  critical need identified by many potential customers.`,
+              ` Developed an end-to-end feature with AWS & Kubernetes to allow users to easily access high-end GPUs,
+addressing a critical need identified by many potential customers.`,
+              `Engineered a flexible account system and usage dashboard with Go & HTMX, attracting dozens of customers.`,
+              `Designed a robust infrastructure, involving Postgres, Docker, & more, for an early startup to support new features.`,
             ],
             skills: [
               { icon: goIcon, name: `Go (Golang)` },

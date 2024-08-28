@@ -21,12 +21,12 @@
         <h2
           class="relative w-fit bg-inherit before:absolute before:inset-0 before:animate-[typewriter_0.8s_steps(18)_forwards] before:bg-inherit dark:bg-inherit dark:before:bg-inherit"
         >
-          Software Engineer.
+          - Software Engineer
         </h2>
         <h2
           class="relative w-fit bg-inherit before:absolute before:inset-0 before:animate-[typewriter_1.3s_0.8s_steps(31)_forwards] before:bg-inherit dark:bg-inherit dark:before:bg-inherit"
         >
-          CS at Northwestern University.
+          - CS at Northwestern University
         </h2>
       </div>
     </div>
