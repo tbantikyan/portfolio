@@ -29,10 +29,39 @@
           - CS at Northwestern University
         </h2>
       </div>
+      <!-- Contact & social media links -->
+      <div id="social-links">
+        <div
+          class="mt-8 flex flex-col gap-1.5 text-xs font-light md:flex-row md:gap-6 md:text-sm"
+        >
+          <a
+            class="flex place-items-center fill-neutral-500 hover:fill-indigo-500 hover:text-indigo-500"
+            href="https://www.linkedin.com/in/tb301/"
+            target="_blank"
+          >
+            <inline-svg class="mr-1.5 h-6 w-6" :src="linkedinIcon" /> Linkedin
+          </a>
+          <a
+            class="flex place-items-center fill-neutral-500 hover:fill-indigo-500 hover:text-indigo-500"
+            href="https://github.com/tigranb2/"
+            target="_blank"
+          >
+            <inline-svg class="mr-1.5 h-6 w-6" :src="githubIcon" /> Github
+          </a>
+          <a
+            class="flex place-items-center fill-neutral-500 hover:fill-indigo-500 hover:text-indigo-500"
+            href="mailto:tigranbantikyan@u.northwestern.edu"
+            target="_blank"
+          >
+            <inline-svg class="mr-1.5 h-6 w-6" :src="mailIcon" />
+            tigranbantikyan@u.northwestern.edu
+          </a>
+        </div>
+      </div>
     </div>
     <div class="mt-8 flex flex-col justify-between md:mt-0 md:flex-row">
       <!-- about me text -->
-      <div class="basis-3/6 text-base lg:text-xl" id="about-me">
+      <div class="max-w-2xl basis-3/5 text-base lg:text-xl" id="about-me">
         <p class="md:leading-8">
           I am a Software Engineer, student, and lifelong learner. My passion
           for Computer Science began at the age of 9 when I set out to uncover
@@ -47,57 +76,31 @@
           further my SWE career.
         </p>
       </div>
-      <div class="mt-8 basis-2/5 pb-10 md:mt-0 md:flex md:flex-col md:pb-0">
+      <div
+        class="mt-8 max-w-lg basis-2/6 pb-10 md:mt-0 md:flex md:flex-col md:pb-0"
+      >
         <!-- Skills -->
         <p class="thin text-base">My skills:</p>
         <div class="rounded-lg bg-opacity-90 p-2" id="skills">
           <div class="flex flex-row flex-wrap gap-1.5">
-            <Skill :skillData="{ icon: goIcon, name: 'Go (Golang)' }" />
             <Skill :skillData="{ icon: awsIcon, name: 'AWS' }" />
             <Skill :skillData="{ icon: dockerIcon, name: 'Docker' }" />
             <Skill
               :skillData="{ icon: kubernetesIcon, name: 'Kubernetes (K8s)' }"
             />
-            <Skill :skillData="{ icon: gitIcon, name: 'Git/GitHub' }" />
+            <Skill :skillData="{ icon: goIcon, name: 'Go (Golang)' }" />
             <Skill :skillData="{ icon: cIcon, name: 'C/C++' }" />
             <Skill :skillData="{ icon: pythonIcon, name: 'Python' }" />
-            <Skill :skillData="{ icon: nodesjsIcon, name: 'Node.js' }" />
-            <Skill :skillData="{ icon: reactIcon, name: 'React' }" />
-            <Skill :skillData="{ icon: vueIcon, name: `Vue` }" />
-            <Skill :skillData="{ icon: mongodbIcon, name: 'MongoDB' }" />
             <Skill :skillData="{ icon: javascriptIcon, name: 'Javascript' }" />
-            <Skill :skillData="{ icon: tailwindIcon, name: 'Tailwind CSS' }" />
             <Skill
               :skillData="{ icon: postgresIcon, name: 'Postgres / MySQL' }"
             />
-          </div>
-        </div>
-        <!-- Contact & social media links -->
-        <div class="mt-8 md:mt-4" id="social-links">
-          <p class="thin text-base">Let's connect:</p>
-          <div class="ml-4 mt-2 flex flex-col gap-1.5 text-sm font-light">
-            <a
-              class="flex place-items-center fill-neutral-500 hover:fill-indigo-500 hover:text-indigo-500"
-              href="https://www.linkedin.com/in/tb301/"
-              target="_blank"
-            >
-              <inline-svg class="mr-4 h-6 w-6" :src="linkedinIcon" /> Linkedin
-            </a>
-            <a
-              class="flex place-items-center fill-neutral-500 hover:fill-indigo-500 hover:text-indigo-500"
-              href="https://github.com/tigranb2/"
-              target="_blank"
-            >
-              <inline-svg class="mr-4 h-6 w-6" :src="githubIcon" /> Github
-            </a>
-            <a
-              class="flex place-items-center fill-neutral-500 hover:fill-indigo-500 hover:text-indigo-500"
-              href="mailto:tigranbantikyan@u.northwestern.edu"
-              target="_blank"
-            >
-              <inline-svg class="mr-4 h-6 w-6" :src="mailIcon" />
-              tigranbantikyan@u.northwestern.edu
-            </a>
+            <Skill :skillData="{ icon: mongodbIcon, name: 'MongoDB' }" />
+            <Skill :skillData="{ icon: nodesjsIcon, name: 'Node.js' }" />
+            <Skill :skillData="{ icon: reactIcon, name: 'React' }" />
+            <Skill :skillData="{ icon: vueIcon, name: `Vue` }" />
+            <Skill :skillData="{ icon: tailwindIcon, name: 'Tailwind CSS' }" />
+            <Skill :skillData="{ icon: gitIcon, name: 'Git/GitHub' }" />
           </div>
         </div>
       </div>
