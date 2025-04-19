@@ -2,7 +2,7 @@
   <a
     :href="projectData.link"
     target="_blank"
-    class="group flex h-fit flex-row rounded-md bg-white drop-shadow-xl transition ease-linear hover:cursor-pointer hover:bg-neutral-100 dark:bg-neutral-800 hover:dark:bg-zinc-800 md:w-11/12 lg:w-9/12 xl:w-7/12"
+    class="group flex h-fit flex-row rounded-md bg-white drop-shadow-xl hover:cursor-pointer hover:bg-neutral-100 dark:bg-neutral-800 hover:dark:bg-zinc-800 md:w-11/12 lg:w-9/12 xl:w-7/12"
   >
     <!-- Project icon (3x2 dimension) -->
     <div class="relative m-2 hidden flex-shrink-0 self-center sm:block">
@@ -19,7 +19,7 @@
     <!-- Project details  -->
     <div class="mx-4 flex flex-col md:ml-2 md:mr-3">
       <h2
-        class="mt-4 text-lg font-bold transition ease-linear group-hover:text-indigo-500 sm:mt-2 md:text-xl"
+        class="mt-4 text-lg font-bold group-hover:text-indigo-500 sm:mt-2 md:text-xl"
       >
         {{ projectData.title }}
       </h2>

@@ -12,7 +12,7 @@
         <RouterView />
       </main>
       <footer class="flex h-10 place-items-end text-xs md:h-20 lg:text-sm">
-        <p class="mx-auto pb-5">© 2024 Tigran Bantikyan</p>
+        <p class="mx-auto pb-5">© 2025 Tigran Bantikyan</p>
       </footer>
     </div>
   </div>
