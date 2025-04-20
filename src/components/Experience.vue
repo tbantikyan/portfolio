@@ -10,8 +10,14 @@
         {{ experienceData.title }}
       </h2>
       <div class="mt-2 flex flex-row items-center gap-1.5 sm:mt-1">
-        <inline-svg class="h-5 w-5 block dark:hidden" :src="experienceData.companyLogo"/>
-        <inline-svg class="h-5 w-5 hidden dark:block" :src="experienceData.companyLogoDark"/>        
+        <inline-svg
+          class="block h-5 w-5 dark:hidden"
+          :src="experienceData.companyLogo"
+        />
+        <inline-svg
+          class="hidden h-5 w-5 dark:block"
+          :src="experienceData.companyLogoDark"
+        />
         <p class="text-sm md:text-base">
           {{ experienceData.company }}
         </p>

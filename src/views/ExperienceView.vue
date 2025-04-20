@@ -34,7 +34,7 @@
             skills: [
               { icon: goIcon, name: `Go (Golang)` },
               { icon: javaIcon, name: `Java` },
-              { icon: mongodbIcon, name: `MongoDB`},
+              { icon: mongodbIcon, name: `MongoDB` },
               { icon: gitIcon, name: `Git/GitHub` },
             ],
             handleDarkmode: true,
@@ -140,6 +140,6 @@ import kubernetesIcon from "../assets/icons/kubernetes.svg";
 import linuxIcon from "../assets/icons/linux.svg";
 import mongodbIcon from "../assets/icons/mongodb.svg";
 import nodesjsIcon from "../assets/icons/nodejs.svg";
-import postgresIcon from "../assets/icons/postgres.svg"
+import postgresIcon from "../assets/icons/postgres.svg";
 import pythonIcon from "../assets/icons/python.svg";
 </script>
