@@ -37,7 +37,6 @@
               { icon: mongodbIcon, name: `MongoDB` },
               { icon: gitIcon, name: `Git/GitHub` },
             ],
-            handleDarkmode: true,
           }"
         />
         <Experience
