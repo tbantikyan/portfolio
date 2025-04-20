@@ -1,16 +1,23 @@
 <template>
   <div
-    class="flex h-fit flex-row rounded-md bg-white drop-shadow-xl transition ease-linear dark:bg-neutral-800 md:w-full"
+    class="flex h-fit flex-row rounded-md bg-white drop-shadow-xl dark:bg-neutral-800 md:w-full"
   >
     <!-- Experience details  -->
     <div class="mx-4 flex flex-col sm:mx-6">
       <h2
-        class="mt-4 text-lg font-bold transition ease-linear group-hover:text-indigo-500 sm:mt-3 md:text-xl"
+        class="mt-4 text-lg font-bold group-hover:text-indigo-500 sm:mt-3 md:text-xl"
       >
         {{ experienceData.title }}
       </h2>
       <div class="mt-2 flex flex-row items-center gap-1.5 sm:mt-1">
-        <inline-svg class="h-5 w-5" :src="experienceData.companyLogo" />
+        <inline-svg
+          class="block h-5 w-5 dark:hidden"
+          :src="experienceData.companyLogo"
+        />
+        <inline-svg
+          class="hidden h-5 w-5 dark:block"
+          :src="experienceData.companyLogoDark"
+        />
         <p class="text-sm md:text-base">
           {{ experienceData.company }}
         </p>
@@ -45,6 +52,7 @@ export type ExperienceData = {
   title: string;
   company: string;
   companyLogo: string;
+  companyLogoDark: string;
   date: string;
   description: string[];
   skills: SkillData[];
