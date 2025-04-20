@@ -15,8 +15,25 @@
     >
       <Project
         :project-data="{
+          title: `WalletCache: Secure Credit Card Store`,
+          description: `CLI app created to be a secure, lightweight, and performant means of storing credit cards 
+                        digitally. Leverages industry best OOP & CI/CD practices, follows rigorous secure coding 
+                        standards, and incorporates optimizations like lazy writes and efficient low-level I/O code.`,
+          link: 'https://github.com/tigranb2/WalletCache',
+          imgSrc: walletCacheDisplay,
+          skills: [
+            { icon: cIcon, name: `C/C++` },
+            { icon: libsodiumIcon, name: `libsodium` },
+            { icon: gitIcon, name: `Git/GitHub` },
+          ],
+        }"
+      />
+      <Project
+        :project-data="{
           title: `Tachy: Productivity Tracker`,
-          description: `Full stack web app that allows users to track simultaneous tasks and visualize productivity. Responsive site design and an authentication system ensure users can access their data from any device.`,
+          description: `Full stack web app that allows users to track simultaneous tasks and visualize productivity.
+                        Responsive site design and an authentication system ensure users can access their data from 
+                        any device.`,
           link: 'https://tachy.pages.dev/',
           imgSrc: tachyDisplay,
           skills: [
@@ -30,7 +47,8 @@
       <Project
         :project-data="{
           title: `Pineapple: Consensus Algorithm`,
-          description: `Developed a highly performant consensus algorithm that improves on Multi-Paxos by integrating ABD. Achieves significant latency & throughput improvement (from 30% to 50%) over competitors.`,
+          description: `Developed a highly performant consensus algorithm that improves on Multi-Paxos by integrating
+                        ABD. Achieves significant latency & throughput improvement (from 30% to 50%) over competitors.`,
           link: 'https://github.com/tigranb2/pineapple/',
           imgSrc: pineappleDisplay,
           skills: [
@@ -43,7 +61,8 @@
       <Project
         :project-data="{
           title: `SoHamov: Dish Classifier`,
-          description: `Responsive web app for classifying images of popular Armenian cuisine and educating users. I built a custom dataset and trained the AI model, achieving 97% accuracy.`,
+          description: `Responsive web app for classifying images of popular Armenian cuisine and educating users. In
+                        built a custom dataset and trained the AI model, achieving 97% accuracy.`,
           link: 'https://sohamov.pages.dev/',
           imgSrc: sohamovDisplay,
           skills: [
@@ -89,6 +108,7 @@
 <script setup lang="ts">
 import Project from "../components/Project.vue";
 
+import cIcon from "../assets/icons/c.svg";
 import cloudlabIcon from "../assets/icons/cloudlab.svg";
 import csharpIcon from "../assets/icons/csharp.svg";
 import firebaseIcon from "../assets/icons/firebase.svg";
@@ -97,6 +117,7 @@ import gitIcon from "../assets/icons/git.svg";
 import goIcon from "../assets/icons/go.svg";
 import mongodbIcon from "../assets/icons/mongodb.svg";
 import nodesjsIcon from "../assets/icons/nodejs.svg";
+import libsodiumIcon from "../assets/icons/libsodium.svg";
 import pineappleDisplay from "../assets/pineapple-display.png";
 import portfolioDisplay from "../assets/portfolio-display.jpg";
 import reactIcon from "../assets/icons/react.svg";
@@ -106,4 +127,5 @@ import tailwindIcon from "../assets/icons/tailwind.svg";
 import tensorflowIcon from "../assets/icons/tensorflow.svg";
 import unityIcon from "../assets/icons/unity.svg";
 import vueIcon from "../assets/icons/vue.svg";
+import walletCacheDisplay from "../assets/wallet-cache-display.jpg";
 </script>
