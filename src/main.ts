@@ -8,7 +8,7 @@ import InlineSvg from "vue-inline-svg";
 
 import type { Ref } from "vue";
 
-export const isDark: Ref<boolean> = ref(true);
+export const isDark: Ref<boolean> = ref(false);
 // toggle value of isDark variable
 
 const app = createApp(App);
