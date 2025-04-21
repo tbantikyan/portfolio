@@ -24,6 +24,8 @@
           skills: [
             { icon: cIcon, name: `C/C++` },
             { icon: libsodiumIcon, name: `libsodium` },
+            { icon: googleIcon, name: `GTest` },
+            { icon: cmakeIcon, name: `CMake` },
             { icon: gitIcon, name: `Git/GitHub` },
           ],
         }"
@@ -110,11 +112,13 @@ import Project from "../components/Project.vue";
 
 import cIcon from "../assets/icons/c.svg";
 import cloudlabIcon from "../assets/icons/cloudlab.svg";
+import cmakeIcon from "../assets/icons/cmake.svg";
 import csharpIcon from "../assets/icons/csharp.svg";
 import firebaseIcon from "../assets/icons/firebase.svg";
 import flightSimDisplay from "../assets/flight-sim-display.jpg";
 import gitIcon from "../assets/icons/git.svg";
 import goIcon from "../assets/icons/go.svg";
+import googleIcon from "../assets/icons/google.svg"
 import mongodbIcon from "../assets/icons/mongodb.svg";
 import nodesjsIcon from "../assets/icons/nodejs.svg";
 import libsodiumIcon from "../assets/icons/libsodium.svg";
