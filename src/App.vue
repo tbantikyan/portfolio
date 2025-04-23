@@ -1,7 +1,7 @@
 <template>
   <div :class="{ dark: isDark }" class="w-screen">
     <div
-      class="bg-stone-50 px-8 text-3xl text-neutral-950 dark:bg-neutral-900 dark:text-zinc-50"
+      class="bg-stone-50 text-3xl text-neutral-950 dark:bg-neutral-900 dark:text-zinc-50"
     >
       <header class="bg-inherit text-inherit dark:bg-inherit dark:text-inherit">
         <NavBar />

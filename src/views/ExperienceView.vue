@@ -1,6 +1,6 @@
 <template>
   <main
-    class="mt-4 bg-inherit text-inherit dark:bg-inherit dark:text-inherit lg:mt-8"
+    class="mt-4 bg-inherit px-8 text-inherit dark:bg-inherit dark:text-inherit lg:mt-8"
   >
     <div class="md:px-4 lg:px-16 xl:px-44">
       <h1 class="text-2xl font-bold md:text-3xl lg:text-4xl">My Experience</h1>
