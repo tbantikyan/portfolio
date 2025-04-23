@@ -1,6 +1,6 @@
 <template>
   <main
-    class="bg-inherit text-inherit dark:bg-inherit dark:text-inherit md:flex md:flex-col md:gap-16 md:px-4 lg:px-16 xl:px-40"
+    class="overflow-x-hidden bg-inherit text-inherit dark:bg-inherit dark:text-inherit md:flex md:flex-col md:gap-16 md:px-4 lg:px-16 xl:px-40"
   >
     <!-- Header -->
     <div

@@ -2,7 +2,7 @@
   <div
     class="flex h-fit flex-row rounded-md bg-white py-4 drop-shadow-xl dark:bg-neutral-800 md:w-full"
   >
-    <div class="mx-4 w-full flex flex-col sm:mx-6">
+    <div class="mx-4 flex w-full flex-col sm:mx-6">
       <h2 class="text-base font-bold sm:text-lg md:text-xl">
         {{ previewData.title }}
       </h2>
@@ -22,13 +22,15 @@
           </div>
         </div>
       </div>
-      <RouterLink 
-      class="mx-auto w-full bg-zinc-100/80 hover:bg-zinc-200/80 dark:bg-zinc-900/50 hover:dark:bg-zinc-900/80 flex flex-col mt-4 items-center py-2 md:py-1.5 rounded-lg"
-      to="/projects"
+      <RouterLink
+        class="mx-auto mt-4 flex w-full flex-col items-center rounded-lg bg-zinc-100/80 py-2 hover:bg-zinc-200/80 dark:bg-zinc-900/50 hover:dark:bg-zinc-900/80 md:py-1.5"
+        to="/projects"
       >
-      <p class="text-base text-neutral-800/95 hover:text-black dark:text-stone-100 hover:dark:text-white lg:text-lg">
-        View all projects
-      </p>
+        <p
+          class="text-base text-neutral-800/95 hover:text-black dark:text-stone-100 hover:dark:text-white lg:text-lg"
+        >
+          View all projects
+        </p>
       </RouterLink>
     </div>
   </div>
