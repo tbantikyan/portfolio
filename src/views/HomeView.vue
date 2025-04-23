@@ -1,6 +1,6 @@
 <template>
   <main
-    class="overflow-x-hidden bg-inherit text-inherit dark:bg-inherit dark:text-inherit md:flex md:flex-col md:gap-16 md:px-4 lg:px-16 xl:px-40"
+    class="overflow-x-hidden bg-inherit px-8 text-inherit dark:bg-inherit dark:text-inherit md:flex md:flex-col md:gap-16 md:px-12 lg:px-24 xl:px-48"
   >
     <!-- Header -->
     <div
@@ -72,12 +72,12 @@
           <div
             v-for="(logo, i) in [...logosWithNames, ...logosWithNames]"
             :key="i"
-            class="mx-[40px] inline-block flex flex-col items-center"
+            class="mx-[30px] inline-block flex flex-col items-center sm:mx-[40px]"
           >
             <img
               :src="isDark && logo.srcDark ? logo.srcDark : logo.src"
               alt="logo"
-              class="mb-1.5 h-[50px] w-auto"
+              class="mb-1.5 h-[40px] w-auto md:h-[50px]"
             />
             <span
               class="text-center font-medium text-gray-700 dark:text-gray-300"
