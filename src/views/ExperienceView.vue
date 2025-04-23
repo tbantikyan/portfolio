@@ -54,7 +54,7 @@ addressing a critical need identified by many potential customers.`,
             ],
             skills: [
               { icon: goIcon, name: `Go (Golang)` },
-              { icon: awsIcon, name: `AWS` },
+              { icon: awsIconDark, name: `AWS` },
               { icon: dockerIcon, name: `Docker` },
               { icon: kubernetesIcon, name: `Kubernetes` },
               { icon: nodesjsIcon, name: `Node.js` },
@@ -79,7 +79,7 @@ addressing a critical need identified by many potential customers.`,
             ],
             skills: [
               { icon: goIcon, name: `Go (Golang)` },
-              { icon: awsIcon, name: `AWS` },
+              { icon: awsIconDark, name: `AWS` },
               { icon: pythonIcon, name: `Python` },
               { icon: etcdIcon, name: `etcd` },
               { icon: linuxIcon, name: `Linux` },
@@ -121,7 +121,7 @@ import amazonIcon from "../assets/icons/amazon.svg";
 import amazonIconDark from "../assets/icons/amazonDark.svg";
 import appleIcon from "../assets/icons/apple.svg";
 import appleIconDark from "../assets/icons/appleDark.svg";
-import awsIcon from "../assets/icons/aws.svg";
+import awsIconDark from "../assets/icons/awsDark.svg";
 import bostonCollegeIcon from "../assets/icons/bostoncollege.svg";
 import camberCloudIcon from "../assets/icons/cambercloud.svg";
 import cassandraIcon from "../assets/icons/cassandra.svg";

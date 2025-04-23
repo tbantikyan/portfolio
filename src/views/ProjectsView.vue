@@ -118,7 +118,7 @@ import firebaseIcon from "../assets/icons/firebase.svg";
 import flightSimDisplay from "../assets/flight-sim-display.jpg";
 import gitIcon from "../assets/icons/git.svg";
 import goIcon from "../assets/icons/go.svg";
-import googleIcon from "../assets/icons/google.svg"
+import googleIcon from "../assets/icons/google.svg";
 import mongodbIcon from "../assets/icons/mongodb.svg";
 import nodesjsIcon from "../assets/icons/nodejs.svg";
 import libsodiumIcon from "../assets/icons/libsodium.svg";
