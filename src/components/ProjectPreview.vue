@@ -23,10 +23,10 @@
         </div>
       </div>
       <RouterLink 
-      class="mx-auto w-full bg-zinc-100/80 hover:bg-zinc-200/80 dark:bg-zinc-900/50 hover:dark:bg-zinc-900/80 flex flex-col mt-4 items-center py-1.5 rounded-lg"
+      class="mx-auto w-full bg-zinc-100/80 hover:bg-zinc-200/80 dark:bg-zinc-900/50 hover:dark:bg-zinc-900/80 flex flex-col mt-4 items-center py-2 md:py-1.5 rounded-lg"
       to="/projects"
       >
-      <p class="text-base text-neutral-800/95 hover:text-black dark:text-stone-100 hover:dark:text-white md:text-lg">
+      <p class="text-base text-neutral-800/95 hover:text-black dark:text-stone-100 hover:dark:text-white lg:text-lg">
         View all projects
       </p>
       </RouterLink>
