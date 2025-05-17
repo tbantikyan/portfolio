@@ -44,7 +44,7 @@
           </a>
           <a
             class="flex place-items-center fill-neutral-500 hover:fill-indigo-500 hover:text-indigo-500"
-            href="https://github.com/tigranb2/"
+            href="https://github.com/tbantikyan/"
             target="_blank"
           >
             <inline-svg class="mr-1.5 h-6 w-6" :src="githubIcon" /> Github

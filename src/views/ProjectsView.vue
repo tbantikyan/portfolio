@@ -19,7 +19,7 @@
           description: `CLI app created to be a secure, lightweight, and performant means of storing credit cards 
                         digitally. Leverages industry best OOP & CI/CD practices, follows rigorous secure coding 
                         standards, and incorporates optimizations like lazy writes and efficient low-level I/O code.`,
-          link: 'https://github.com/tigranb2/WalletCache',
+          link: 'https://github.com/tbantikyan/WalletCache',
           imgSrc: walletCacheDisplay,
           skills: [
             { icon: cIcon, name: `C/C++` },
@@ -51,7 +51,7 @@
           title: `Pineapple: Consensus Algorithm`,
           description: `Developed a highly performant consensus algorithm that improves on Multi-Paxos by integrating
                         ABD. Achieves significant latency & throughput improvement (from 30% to 50%) over competitors.`,
-          link: 'https://github.com/tigranb2/pineapple/',
+          link: 'https://github.com/tbantikyan/pineapple/',
           imgSrc: pineappleDisplay,
           skills: [
             { icon: goIcon, name: `Go (Golang)` },
@@ -94,7 +94,7 @@
         :project-data="{
           title: `Realistic Flight Simulator`,
           description: `A POV flight simulator with realistic physics. Features playable level to experience controls and game mechanics.`,
-          link: 'https://github.com/tigranb2/flying-sim',
+          link: 'https://github.com/tbantikyan/flying-sim',
           imgSrc: flightSimDisplay,
           skills: [
             { icon: csharpIcon, name: `C#` },
