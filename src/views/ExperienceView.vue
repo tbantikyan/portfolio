@@ -29,7 +29,7 @@
             company: `Apple`,
             companyLogo: appleIcon,
             companyLogoDark: appleIconDark,
-            date: `Mar. 2025 - Present`,
+            date: `Mar. 2025 - June 2025`,
             description: [],
             skills: [
               { icon: goIcon, name: `Go (Golang)` },
