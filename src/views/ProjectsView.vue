@@ -21,7 +21,7 @@
             memory allocator, eliminating dynamic allocations on the critical path. 
             Engineered an asynchronous threading framework with lock-free queues and 
             CPU core-pinning.`,
-          link: 'https://github.com/tbantikyan/WalletCache',
+          link: 'https://github.com/tbantikyan/vots',
           imgSrc: votsDisplay,
           skills: [
             { icon: cIcon, name: `C/C++` },
