@@ -13,7 +13,7 @@
         <Experience
           class="dark:bg-inherit"
           :experience-data="{
-            title: `Incoming Software Engineer Intern`,
+            title: `Software Engineer Intern`,
             company: `Amazon`,
             companyLogo: amazonIcon,
             companyLogoDark: amazonIconDark,

@@ -155,16 +155,16 @@
               title: `Latest Experiences`,
               items: [
                 {
+                  company: `Amazon`,
+                  jobTitle: `Software Engineer Intern`,
+                  logo: amazonIcon,
+                  logoDark: amazonIconDark,
+                },
+                {
                   company: `Apple`,
                   jobTitle: `Software Engineer Intern`,
                   logo: appleIcon,
                   logoDark: appleIconDark,
-                },
-                {
-                  company: `Amazon`,
-                  jobTitle: `Incoming Software Engineer Intern`,
-                  logo: amazonIcon,
-                  logoDark: amazonIconDark,
                 },
               ],
             }"
@@ -178,8 +178,8 @@
               title: `Latest Projects`,
               items: [
                 {
-                  project: `TBSE: High Performance Stock Exchange`,
-                  projectDescription: `Developing a low-latency, hyper-optimized exchange`,
+                  project: `Vots: Low Latency Trading System`,
+                  projectDescription: `Developing a low-latency, hyper-optimized trading exchange and market participant components`,
                 },
                 {
                   project: `WalletCache: Credit Card Vault`,

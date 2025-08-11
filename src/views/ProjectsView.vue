@@ -15,6 +15,25 @@
     >
       <Project
         :project-data="{
+          title: `Vots: Low Latency Trading System`, 
+          description: `Designed a full trading stack, including a Matching Engine, 
+            Risk Manager, and Market Maker & Liquidity Taker strategies. Built a custom 
+            memory allocator, eliminating dynamic allocations on the critical path. 
+            Engineered an asynchronous threading framework with lock-free queues and 
+            CPU core-pinning.`,
+          link: 'https://github.com/tbantikyan/WalletCache',
+          imgSrc: votsDisplay,
+          skills: [
+            { icon: cIcon, name: `C/C++` },
+            { icon: dockerIcon, name: `Docker` },
+            { icon: googleIcon, name: `GTest` },
+            { icon: cmakeIcon, name: `CMake` },
+            { icon: gitIcon, name: `Git/GitHub` },
+          ],
+        }"
+      />
+      <Project
+        :project-data="{
           title: `WalletCache: Secure Credit Card Store`,
           description: `CLI app created to be a secure, lightweight, and performant means of storing credit cards 
                         digitally. Leverages industry best OOP & CI/CD practices, follows rigorous secure coding 
@@ -114,6 +133,7 @@ import cIcon from "../assets/icons/c.svg";
 import cloudlabIcon from "../assets/icons/cloudlab.svg";
 import cmakeIcon from "../assets/icons/cmake.svg";
 import csharpIcon from "../assets/icons/csharp.svg";
+import dockerIcon from "../assets/icons/docker.svg";
 import firebaseIcon from "../assets/icons/firebase.svg";
 import flightSimDisplay from "../assets/flight-sim-display.jpg";
 import gitIcon from "../assets/icons/git.svg";
@@ -130,6 +150,7 @@ import tachyDisplay from "../assets/tachy-display.jpg";
 import tailwindIcon from "../assets/icons/tailwind.svg";
 import tensorflowIcon from "../assets/icons/tensorflow.svg";
 import unityIcon from "../assets/icons/unity.svg";
+import votsDisplay from "../assets/vots-display.jpg";
 import vueIcon from "../assets/icons/vue.svg";
 import walletCacheDisplay from "../assets/wallet-cache-display.jpg";
 </script>
