@@ -55,7 +55,7 @@
           description: `Full stack web app that allows users to track simultaneous tasks and visualize productivity.
                         Responsive site design and an authentication system ensure users can access their data from 
                         any device.`,
-          link: 'https://tachy.pages.dev/',
+          link: 'https://tachy.tigranbantikyan.dev/',
           imgSrc: tachyDisplay,
           skills: [
             { icon: mongodbIcon, name: `MongoDB` },
@@ -84,7 +84,7 @@
           title: `SoHamov: Dish Classifier`,
           description: `Responsive web app for classifying images of popular Armenian cuisine and educating users. In
                         built a custom dataset and trained the AI model, achieving 97% accuracy.`,
-          link: 'https://sohamov.pages.dev/',
+          link: 'https://sohamov.tigranbantikyan.dev/',
           imgSrc: sohamovDisplay,
           skills: [
             { icon: tensorflowIcon, name: `Tensorflow` },

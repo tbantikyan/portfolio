@@ -19,7 +19,12 @@
             companyLogoDark: amazonIconDark,
             date: `June 2025 - Aug. 2025`,
             description: [],
-            skills: [],
+            skills: [
+              { icon: javaIcon, name: `Java` },
+              { icon: javascriptIcon, name: `Javascript` },
+              { icon: awsIconDark, name: `AWS` },
+              { icon: gitIcon, name: `Git/GitHub` },
+            ],
           }"
         />
         <Experience
@@ -34,6 +39,8 @@
             skills: [
               { icon: goIcon, name: `Go (Golang)` },
               { icon: javaIcon, name: `Java` },
+              { icon: dockerIcon, name: `Docker` },
+              { icon: kubernetesIcon, name: `Kubernetes` },
               { icon: mongodbIcon, name: `MongoDB` },
               { icon: gitIcon, name: `Git/GitHub` },
             ],
